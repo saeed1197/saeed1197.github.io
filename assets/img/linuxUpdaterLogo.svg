@@ -1,0 +1,29 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <title>linux-updater</title>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0b1220"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="240" height="240" rx="48" fill="url(#bg)"/>
+
+  <!-- terminal window -->
+  <rect x="46" y="66" width="148" height="112" rx="14" fill="#0b0f14" stroke="#33414f" stroke-width="3"/>
+  <!-- title bar -->
+  <path d="M46 80 a14 14 0 0 1 14 -14 h120 a14 14 0 0 1 14 14 v14 h-148 z" fill="#151d26"/>
+  <circle cx="62" cy="80" r="4.5" fill="#ff5f56"/>
+  <circle cx="76" cy="80" r="4.5" fill="#ffbd2e"/>
+  <circle cx="90" cy="80" r="4.5" fill="#27c93f"/>
+
+  <!-- prompt -->
+  <text x="62" y="150" font-family="'Cascadia Code','Consolas',monospace" font-size="44" font-weight="700" fill="#4EAA25">&gt;_</text>
+
+  <!-- refresh arrow badge -->
+  <circle cx="182" cy="70" r="34" fill="#0b1220" stroke="#0b1220" stroke-width="4"/>
+  <g transform="translate(182,70)">
+    <path d="M -16 -4 A 18 18 0 1 1 -12 12" fill="none" stroke="#E95420" stroke-width="7" stroke-linecap="round"/>
+    <polygon points="-22,-10 -9,-6 -17,4" fill="#E95420"/>
+  </g>
+</svg>
